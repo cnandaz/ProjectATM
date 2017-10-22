@@ -107,7 +107,7 @@ public class FXMLDocumentController implements Initializable {
 
     @FXML
     void tekanC(ActionEvent event) {
-        pin += "";
+        pin = "";
         editPin.setText(pin);
     }
 
